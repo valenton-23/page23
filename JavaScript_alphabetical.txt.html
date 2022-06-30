@@ -1,0 +1,8 @@
+fubction alpha (str){
+    var aar=str.split("");
+    res=aar.sort().join("");
+    rws=res.replace(/\s+/g,"");
+    return rws;
+}
+console.log("Ascending alphabetical order of the name of my most played champion in WR:");
+console.log(alpha("lucian"));
